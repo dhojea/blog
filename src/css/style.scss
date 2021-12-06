@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import 'sass/colors';
+@import 'sass/typography';
+
+
+body{
+    width: 100%;
+    background-color: #303030;
+}
+
+@import 'sass/layout';
