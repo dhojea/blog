@@ -1,5 +1,6 @@
-h1, h2, h3, h4, h5, h6 {
-    color: #454;
+h1, h2, h3, h4, h5, h6, p {
+   color: $white-dark;
+
     font-family: 'Readex Pro', sans-serif;
 }
 
@@ -25,13 +26,11 @@ h2 {
   font-size: 56px;
   line-height: 110%;
 
-  color: $white-dark;
 
 }
 
 h3 {
   font-size: 40px;
-  color: $white-dark;
   line-height: 115%;
 
 }
