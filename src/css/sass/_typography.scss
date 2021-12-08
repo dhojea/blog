@@ -7,6 +7,8 @@ h1, h2, h3, h4, h5, h6, p {
 p{
     font-size: 16px;
     font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    color: $grey-light;
 }
 
 
@@ -36,17 +38,23 @@ h3 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 120%;
 }
 
+//CATEGORIES
 h5 {
   font-size: 18px;
   line-height: 130%;
-
+  text-transform: uppercase;
+  color: $purple-normal;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 h6 {
   font-size: 16px;
+  
+  font-weight: 300;
   line-height: 150%;
 }

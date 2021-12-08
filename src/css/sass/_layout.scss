@@ -12,7 +12,10 @@
 
 .container{
     max-width: 1200px;
+
     margin: 0 auto;
+    padding: 8px 24px;
+    border:1px solid yellow;
 }
 
 .border{
@@ -80,3 +83,18 @@ header{
     }
 }
 
+//POST
+
+.img-profile{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: $grey-light;
+}
+
+
+.container-post{
+
+    display: flex;
+    justify-content: space-between;
+}

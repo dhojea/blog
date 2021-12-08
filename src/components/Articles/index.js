@@ -1,23 +1,20 @@
 import Post from '../Post';
 
-function Article() {
 
-    return(
-        <>
-        <h4>Article.js </h4>
-        <Post/>
-        </>
+const Article = () =>{
+
+    return (
+        <section className="container">
+            <h4>Article.js </h4>
+
+            <div className=" mt-3 container-post">
+                <Post />
+                <Post />
+                <Post />
+            </div>
+
+        </section>
     );
 }
 
 export default Article;
-
-/*
-cont Article = () => {
-    return ( 
-        <h2> Teste com Article</h2>
-    )
-}
-
-export default Header;
-*/

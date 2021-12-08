@@ -6,6 +6,10 @@
   font-family: "Readex Pro", sans-serif;
 }
 
+.color-purple {
+  color: #7E2E96;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   color: #EBE7E1;
   font-family: 'Readex Pro', sans-serif;
@@ -14,6 +18,8 @@ h1, h2, h3, h4, h5, h6, p {
 p {
   font-size: 16px;
   font-family: 'Readex Pro', sans-serif;
+  font-weight: 400;
+  color: #B0B0B0;
 }
 
 /*.button {
@@ -37,17 +43,22 @@ h3 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 120%;
 }
 
 h5 {
   font-size: 18px;
   line-height: 130%;
+  text-transform: uppercase;
+  color: #7E2E96;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 h6 {
   font-size: 16px;
+  font-weight: 300;
   line-height: 150%;
 }
 
@@ -682,6 +693,8 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 8px 24px;
+  border: 1px solid yellow;
 }
 
 .border {
@@ -734,5 +747,21 @@ header .input-search {
   border-radius: 4px;
   border: 0;
   padding: 8px;
+}
+
+.img-profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #B0B0B0;
+}
+
+.container-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
