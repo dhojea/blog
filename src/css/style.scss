@@ -1,16 +1,17 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Readex Pro", sans-serif;
 }
 
-@import 'sass/colors';
-@import 'sass/typography';
+@import "sass/colors";
+@import "sass/typography";
+@import "sass/spacing";
 
-
-body{
-    width: 100%;
-    background-color: #303030;
+body {
+  width: 100%;
+  background-color: $grey-dark;
 }
 
-@import 'sass/layout';
+@import "sass/layout";

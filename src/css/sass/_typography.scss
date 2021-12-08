@@ -4,6 +4,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p{
-    color: red;
+    font-size: 16px;
     font-family: 'Readex Pro', sans-serif;
+}
+
+
+/*.button {
+    font-family: 'Readex Pro', sans-serif;
+}
+*/
+
+
+h1 {
+  font-size: 72px;
+  line-height: 105%;
+  color: $white-dark;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 110%;
+
+  color: $white-dark;
+
+}
+
+h3 {
+  font-size: 40px;
+  color: $white-dark;
+  line-height: 115%;
+
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 120%;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 130%;
+
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 150%;
 }
